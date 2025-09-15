@@ -7,6 +7,10 @@ public class Lizzard extends Animals {
 
     }
 
+    public String makeSound(){
+        return ("Pssssst");
+    }
+
     //getters
     public String getName() {
         return name;

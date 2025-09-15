@@ -7,6 +7,11 @@ public class Dog extends Animals{
 
     }
 
+
+    public String makeSound(){
+        return ("Woof");
+    }
+
     //getters
     public String getName() {
         return name;

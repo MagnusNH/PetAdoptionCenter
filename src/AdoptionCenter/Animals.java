@@ -6,14 +6,10 @@ class Animals {
     protected String name;
     protected String animalType;
     protected String sound;
-    private int [] location = {0,0,0,0,0,0};
 
-    public Animals (String Name, String animalType, String sound, int location){
+    public Animals (String Name, String animalType, String sound){
         this.name=Name;
         this.animalType=animalType;
         this.sound=sound;
-        this.location= new int[]{location};
     }
-
-    Scanner scan=new Scanner (System.in);
 }
