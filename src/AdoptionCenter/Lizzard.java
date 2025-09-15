@@ -32,5 +32,9 @@ public class Lizzard extends Animals {
     public String setSound() {
         return sound;
     }
+    @Override
+    public String toString(){
+        return "Animal: " + animalType + "Name: " + name + "Sound: " + sound;
+    }
 }
 
