@@ -1,4 +1,6 @@
 package AdoptionCenter;
 
-public class Lizzard {
+public class Lizzard extends Animals {
+    public lizzard();
+     super(name , )
 }
