@@ -2,7 +2,7 @@ package AdoptionCenter;
 
 public class Lizzard extends Animals {
 
-    public lizzard(String name, String animalType, String sound,);{
+    public Lizzard(String name, String animalType, String sound) {
      super(name,animalType,sound);
 
 }
